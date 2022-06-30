@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #0a0a32;
+}
+
+nav {
+    width: 24%;
+    height: 100%;
+    position: fixed;
+    border-right: #0a0a32 solid 3px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+code {
+    background-color: #f4f3f1;
+    border-radius: 5px;
+    height: auto;
+    width: 75%;
+    padding: 15px;
+    margin: 20px;
+    display: block;
+    margin-left: 60px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    background-color: #fff;
+    font-weight: 500;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav header {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    width: 100%;
+    height:auto;
+    font-size: 1.07rem;
+    padding: 12px;
+    border-bottom: solid #000 1px;
+}
+
+nav ul li:first-of-type {
+    border-top: solid #000 1px;
+}
+
+nav ul li:last-of-type {
+    border-bottom: none;
+}
+
+main {
+    float: right;
+    width: 73%;
+    height: 100%;
+}
+
+section header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+section {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+section p {
+    padding-left: 35px;
+}
+
+section ul {
+   padding-left: 60px;
+   margin-left: 10px;
+}
+
+section ul li {
+    margin: 10px;
+}
+
+section ul li:first-of-type {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 640px) {
+    h1 {
+        font-size: 19px;
+    }
+}
